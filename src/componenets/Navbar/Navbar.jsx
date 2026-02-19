@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-base-100/80 sticky top-0 z-50 backdrop-blur-md border-b border-base-200 px-4 lg:px-8 container mx-auto">
+            <div className="navbar bg-base-100/80 sticky top-0 z-50 backdrop-blur-md border-b border-base-200 px-4 lg:px-8 max-w-[1200px] mx-auto">
   <div className="navbar-start">
     {/* Mobile Menu */}
     <div className="dropdown">
