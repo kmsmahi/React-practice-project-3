@@ -15,7 +15,7 @@ function App() {
     <Navbar></Navbar>
     <BannerCard toggle={toggle} setToggle={setToggle}></BannerCard>
     <Suspense fallback="Loading...">
-      <MainSection fetchPromise={fetchPromise}></MainSection>
+      <MainSection fetchPromise={fetchPromise} ></MainSection>
     </Suspense>
     </>
   )

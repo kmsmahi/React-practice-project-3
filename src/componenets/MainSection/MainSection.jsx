@@ -1,8 +1,11 @@
-import React, { use } from 'react';
-
+import React, { use, useState } from 'react';
 const MainSection = ({fetchPromise}) => {
-    const data=use(fetchPromise);
-    console.log(data);
+    const initialData=use(fetchPromise);
+    const [data,setData]=useState(initialData);
+    // const pendingData=data.filter(x=>x.status==='pending');
+    // const submittedData=data.filter(x=>x.status==='submitted');
+    // const reviwedData=data.filter(x=>x.status==='reviewed');
+    // console.log({pendingData,submittedData,reviwedData});
     return (
         <div className='max-w-[1200px] mx-auto mt-20 grid grid-cols-3 gap-4 justify-center items-center '>
             {

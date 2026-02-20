@@ -1,6 +1,7 @@
 import React from 'react';
 
 const BannerCard = ({toggle,setToggle}) => {
+    
     return (
         <>
         <div className='max-w-[1200px] mx-auto mt-20 flex gap-8 justify-center items-center'>
